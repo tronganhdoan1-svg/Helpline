@@ -8,7 +8,7 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 # set up routes
-@app.route("/")
+@app.route("/session")
 def dashboard():
-        return render_template('index.html')
+        return render_template('session.html')
 
